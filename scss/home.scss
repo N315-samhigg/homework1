@@ -20,13 +20,12 @@
 }
 
 #homeProducts {
-    width: 80vw;
-    margin-left: 10vw;
+    width: 100vw;
     margin-top: 5vh;
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
     .productCont {
         width: 30vw;
