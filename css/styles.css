@@ -52,21 +52,41 @@ nav a {
 
 #homeProducts {
   width: 80vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 #homeProducts .productCont {
+  width: 30vw;
+  aspect-ratio: 0.9;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   background-color: var(--gray);
   color: var(--black);
-  aspect-ratio: 0.9;
-  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 #homeProducts .productCont img {
   aspect-ratio: 1;
-  width: 20vw;
+  width: 40vh;
   object-fit: cover;
   object-position: center;
+}
+#homeProducts .productCont .productText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#homeProducts .productCont .productText h3 {
+  font-size: 4vh;
+}
+#homeProducts .productCont .productText h5 {
+  font-size: 2.5vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
