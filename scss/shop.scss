@@ -1,0 +1,35 @@
+#sortFilter {
+    height: 5vh;
+    width: 80vw;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+
+    background-color: var(--gray);
+    border-radius: 5vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        color: var(--dark-gray);
+        text-decoration: none;
+
+        .topLogo {
+            font-size: 4vh;
+            margin-right: 0.25vw;
+        }
+
+        h5 {
+            font-size: 2vh;
+            height: 100%;
+            margin-top: 5vh;
+        }
+    }
+}
