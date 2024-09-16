@@ -2,14 +2,16 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ transition: all 0.1s ease-in-out;
 }
 
-html, body {
- height: 100%;
+html {
  max-width: 100vw;
  overflow-x: hidden;
  scroll-behavior: smooth;
+}
 
+body {
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -17,12 +19,13 @@ html, body {
  font-family: sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+p {
  margin-bottom: 16px;
 }
 
 :root {
     --blue: #29f;
+    --light-blue: #9bf;
     --white: #ddd;
     --gray: #ccc;
     --dark-gray: #444;
