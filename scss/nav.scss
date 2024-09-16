@@ -8,7 +8,18 @@ nav#top {
   justify-content: space-evenly;
 
   a {
+    height: 100%;
+    width: 15vw;
     text-decoration: none;
     color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:hover {
+    background-color: var(--dark-gray);
+    font-weight: bold;
   }
 }

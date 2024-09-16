@@ -41,8 +41,17 @@ nav#top {
   justify-content: space-evenly;
 }
 nav#top a {
+  height: 100%;
+  width: 15vw;
   text-decoration: none;
   color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav#top a:hover {
+  background-color: var(--dark-gray);
+  font-weight: bold;
 }
 
 #hero {
@@ -218,6 +227,50 @@ div.picLeft .textRight, div.picLeft .textLeft, div.picRight .textRight, div.picR
   font-weight: bold;
 }
 
+.contactSec {
+  width: 100vw;
+  padding: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  margin-bottom: -5vh;
+  background-color: var(--dark-gray);
+  color: var(--white);
+}
+.contactSec h2 {
+  width: 100vw;
+  height: 10vh;
+  margin-left: -20vw;
+  background-color: var(--blue);
+  color: var(--black);
+  font-size: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactSec p {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 3vh;
+}
+.contactSec a.submit {
+  width: 15vw;
+  height: 10vh;
+  padding: 1vw;
+  border-radius: 1vw;
+  background-color: var(--blue);
+  color: var(--black);
+  font-size: 4vh;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactSec a.submit:hover {
+  background-color: var(--light-blue);
+  font-weight: bold;
+  border-radius: 2.5vw;
+}
+
 footer {
   width: 100vw;
   height: 7.5vh;
@@ -228,6 +281,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 98;
 }
 footer a {
   color: var(--gray);
